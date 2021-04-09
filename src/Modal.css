@@ -1,0 +1,77 @@
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal h1 {
+    color: white;
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.modal input {
+    color: black;
+    resize: none;
+    width: 300px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+/* Modal Content/Box */
+.modal-content {
+    border-radius: 4px;
+    background-color: #121212;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 2px solid #fbff00;
+    color: white;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+.modal button {
+
+}
+
+.chatMessage {
+    text-align: center;
+}
+
+.submit {
+    border-color: #54a245;
+    margin-right: 5px;
+    font-size: 25px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0);
+    border-style: solid;
+    font-weight: normal;
+    color: white !important;
+    height: 45px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.submit:hover {
+    background-color: #3c72312c;
+}
+
+.cancel {
+    border-color: #b5000a;
+    font-size: 25px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0);
+    border-style: solid;
+    font-weight: normal;
+    color: white !important;
+    height: 45px;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    text-align: center;
+}
+
+.cancel:hover {
+    background-color: #97000844;
+}

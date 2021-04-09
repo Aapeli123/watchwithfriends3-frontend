@@ -1,0 +1,64 @@
+#roomLink {
+    resize: none;
+    width: 320px;
+    height: 15px;
+}
+
+.chat {
+    overflow-y: scroll;
+    background-color: rgb(61, 61, 61);
+    height: 400px;
+}
+.chatMessage p {
+    display: inline;
+    margin: 0;
+    margin-left: 6px;
+    
+}
+.chatMessage {
+    text-align: left;
+}
+
+.column {
+    float: left;
+}
+
+.left {
+    width: 75%;
+}
+
+.right {
+    width: 25%;
+} 
+h4 {
+    margin: 0;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+.videoPlayer {
+    margin-top: 0px;
+}
+.memberlist {
+    overflow-y: scroll;
+    height: 200px;
+}
+
+
+.memberlist li * {
+    display: inline;
+}
+
+.recommendations {
+    width: 50%;
+}
+.videoSettings {
+    width: 50%;
+}
+.recommendationContainer {
+    overflow-y: scroll;
+    height: 250px;
+}
+h2{margin: 0;}
