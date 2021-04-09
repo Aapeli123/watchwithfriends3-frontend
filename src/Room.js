@@ -70,6 +70,7 @@ const Room = (props) => {
           modalText.current.value = "";
           modalHeading.current.innerText = question;
           modal.current.style.display = "block";
+          modalText.current.focus();
           modalSubmit.current.onclick = (e) => {
             e.preventDefault();
             resolve(modalText.current.value);
