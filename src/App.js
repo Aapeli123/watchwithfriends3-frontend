@@ -4,7 +4,7 @@ import Home from './Home';
 import React, {useState} from 'react';
 import ErrorPage from './ErrorPage';
 
-let backUrl = `ws://localhost:8080/ws`
+let backUrl = `wss://watchwithfriends.tk:8080/ws`
 export let server = new WebSocket(backUrl);
 
 export function sendData(operation, data) {

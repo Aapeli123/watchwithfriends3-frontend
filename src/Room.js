@@ -371,7 +371,7 @@ const Room = (props) => {
 
 
                         <form onSubmit={chatFormSubmit}>
-                            <input ref={chatMsgRef} type="text" placeholder="messsage"/>
+                            <input ref={chatMsgRef} type="text" placeholder="message"/>
                             <Button onClick={chatFormSubmit}> Send </Button>
                         </form>
                     </div>

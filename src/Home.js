@@ -222,7 +222,8 @@ const Home = () => {
         }
         <h5>Ping: {ping} ms</h5>
         <h3>Made by Aapo H. 2021</h3>
-        <a href="https://github.com/Aapeli123/watchwithfriends3">Source code</a>
+        <a href="https://github.com/Aapeli123/watchwithfriends3">Server Source</a>
+	<a href="https://github.com/Aapeli123/watchwithfriends3-frontend"> Website Source </a>
         </>
     ) : (
         <>
