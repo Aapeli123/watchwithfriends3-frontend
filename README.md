@@ -1,3 +1,4 @@
+# New version found at [watchwithfriends4](https://github.com/Aapeli123/watchwithfriends4)
 # Watchwithfriends3 Frontend
 This is a frontend for [WatchWithFriends3](https://github.com/Aapeli123/watchwithfriends3).
 Uses React.js and Yarn as a package manager
